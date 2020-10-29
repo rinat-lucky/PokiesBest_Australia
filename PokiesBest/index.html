@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokiesBest</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Prompt:wght@800&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-2 header_mobile">
+                    <a href="#" class="header_logo">
+                        <img src="img/header/header_logo.svg" alt="logo" class="logo_desktop"></a>
+
+                    <a href="#" class="header_logo_mobile">    
+                        <img src="img/header/logo.svg" alt="logo" class="logo_mobile" width="40px"></a>
+                           
+                    <div class="burger_menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+
+                <div class="col-md-4 offset-md-2">
+                    <ul class="menu">
+                        <li class="menu_item"><a href="#casinos_link" class="menu_link">casinos</a></li>
+                        <li class="menu_item"><a href="#games_link" class="menu_link">games</a></li>
+                        <li class="menu_item"><a href="#" class="menu_link">bonuses</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 offset-md-2">
+                    <button class="login_btn">Log in</button>
+                </div>
+
+                
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-6">
+                    <h1>
+                        Play in the best casinos of Australia
+                    </h1>
+                </div>
+
+                <div class="col-md-5">
+                    <h2>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.    
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="arrows" id="casinos_link">
+
+        <div class="arrows_red_blue">
+            <img src="img/section1/arrow_red_section1.svg" alt="arrows_left" class="arrows_left">
+            <img src="img/section1/arrow_blue_section1.svg" alt="arrows_right" class="arrows_right">
+        </div>
+        
+        <div class="container best">
+            <div class="row">
+                <div class="col-md-11">
+
+                    <img src="img/section1/banner.svg" alt="frame" class="arrows_img">
+                    <img src="img/section1/frame_mobile.svg" alt="frame" class="arrows_img_mobile">
+                    <h3 class="arrows_subtitle">
+                        The best online<br>casino in Australia
+                    </h3>
+
+                    <div class="arrows_frame">
+                        
+                        <img src="img/section1/jackpotcity_section1.svg" alt="jackpot_city" class="arrows_frame_logo">
+                        <div class="arrows_frame_descr">
+                            <span class="frame_descr_title">JackpotCity</span>
+                            <img src="img/section1/rating_section1.svg" alt="rating" class="frame_descr_rating">
+                            <!-- <div class="frame_descr_bonus"> -->
+                                <div class="frame_descr_bonus_cash">
+                                    1500$<br>Welcome Bonus
+                                </div>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+
+                    <button class="arrows_play">Play now</button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="top10" id="games_link">
+        <div class="container"">
+        
+            <div class="row">
+                <div class="col-md-10">
+                    <h3 class="top10_subtitle">
+                        Top 10 best online casinos in Australia
+                    </h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="place">
+                    <div class="col-md-1">
+                        <span class="place_number">
+                            1
+                        </span>
+                    </div>
+                    
+                    <div class="col-md-2">
+                        <div class="place_casino">
+                            <img src="img/top_10/logo1.svg" alt="JackpotCity" class="place_casino_logo">
+                            <div class="place_casino_name">
+                                JackpotCity
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <img src="img/top_10/rating5.0.svg" alt="rating" class="place_rating">
+                    </div>
+
+                    <div class="col-md-3 bonus_mobile">
+                        <div class="place_bonus" id="bonus_1">
+                            <img src="img/top_10/dollar.svg" alt="dollar" class="place_bonus_dollar">
+                            <div class="place_bonus_cash place_games_number">
+                                1500$
+                            </div>
+                            <div class="place_bonus_welcome">
+                                <span>Welcome Bonus</span>
+                                <img src="img/top_10/question.svg" alt="question" class="place_bonus_question" onclick="openbox1('place_1'); return false">
+                            </div>
+                            <div class="place_bonus_welcome_add" id="place_1">
+                                <div class="welcome_add_polygon"></div>
+                                <span class="welcome_add_text">New customers only.<br>100% match bonus based</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-1 bonus_mobile">
+                        <div class="place_games">
+                            <img src="img/top_10/cards.svg" alt="cards" class="place_games_cards">
+                            <div class="place_bonus_cash place_games_number">
+                                20+
+                            </div>
+                            <div class="place_games_caption">
+                                Games
+                            </div>
+                        </div>
+                    </div>    
+
+                    <div class="col-md-3">
+                        <div class="place_buttons">
+                            <button class="place_btn btn_play_now">Play now</button>
+                            <button class="place_btn btn_read_review">Read reviews</button>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="place">
+                    <div class="col-md-1">
+                        <span class="place_number">
+                            2
+                        </span>
+                    </div>
+                    
+                    <div class="col-md-2">
+                        <div class="place_casino">
+                            <img src="img/top_10/logo2.svg" alt="CasinoJoy" class="place_casino_logo">
+                            <div class="place_casino_name">
+                                Casino Joy
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <img src="img/top_10/rating4.0.svg" alt="rating" class="place_rating">
+                    </div>
+
+                    <div class="col-md-3 bonus_mobile">
+                        <div class="place_bonus" id="bonus_2">
+                            <img src="img/top_10/dollar.svg" alt="dollar" class="place_bonus_dollar">
+                            <div class="place_bonus_cash place_games_number">
+                                1000$
+                            </div>
+                            <div class="place_bonus_welcome">
+                                <span>Welcome Bonus</span>
+                                <img src="img/top_10/question.svg" alt="question" class="place_bonus_question" onclick="openbox2('place_2'); return false">
+                            </div>
+                            <div class="place_bonus_welcome_add" id="place_2">
+                                <div class="welcome_add_polygon"></div>
+                                <span class="welcome_add_text">New customers only.<br>100% match bonus based</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-1 bonus_mobile">
+                        <div class="place_games">
+                            <img src="img/top_10/cards.svg" alt="cards" class="place_games_cards">
+                            <div class="place_bonus_cash place_games_number">
+                                120+
+                            </div>
+                            <div class="place_games_caption">
+                                Games
+                            </div>
+                        </div>
+                    </div>    
+
+                    <div class="col-md-3">
+                        <div class="place_buttons">
+                            <button class="place_btn btn_play_now">Play now</button>
+                            <button class="place_btn btn_read_review">Read reviews</button>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="place">
+                    <div class="col-md-1">
+                        <span class="place_number">
+                            3
+                        </span>
+                    </div>
+                    
+                    <div class="col-md-2">
+                        <div class="place_casino">
+                            <img src="img/top_10/logo1.svg" alt="JackpotCity" class="place_casino_logo">
+                            <div class="place_casino_name">
+                                Genesis Casino
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <img src="img/top_10/rating5.0.svg" alt="rating" class="place_rating">
+                    </div>
+
+                    <div class="col-md-3 bonus_mobile">
+                        <div class="place_bonus" id="bonus_3">
+                            <img src="img/top_10/dollar.svg" alt="dollar" class="place_bonus_dollar">
+                            <div class="place_bonus_cash place_games_number">
+                                2500$
+                            </div>
+                            <div class="place_bonus_welcome">
+                                <span>Welcome Bonus</span>
+                                <img src="img/top_10/question.svg" alt="question" class="place_bonus_question" onclick="openbox3('place_3'); return false">
+                            </div>
+                            <div class="place_bonus_welcome_add" id="place_3">
+                                <div class="welcome_add_polygon"></div>
+                                <span class="welcome_add_text">New customers only.<br>100% match bonus based</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-1 bonus_mobile">
+                        <div class="place_games">
+                            <img src="img/top_10/cards.svg" alt="cards" class="place_games_cards">
+                            <div class="place_bonus_cash place_games_number">
+                                300+
+                            </div>
+                            <div class="place_games_caption">
+                                Games
+                            </div>
+                        </div>
+                    </div>    
+
+                    <div class="col-md-3">
+                        <div class="place_buttons">
+                            <button class="place_btn btn_play_now">Play now</button>
+                            <button class="place_btn btn_read_review">Read reviews</button>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="place">
+                    <div class="col-md-1">
+                        <span class="place_number">
+                            4
+                        </span>
+                    </div>
+                    
+                    <div class="col-md-2">
+                        <div class="place_casino">
+                            <img src="img/top_10/logo4.svg" alt="Vegas_Hero" class="place_casino_logo">
+                            <div class="place_casino_name">
+                                Vegas Hero
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <img src="img/top_10/rating4.0.svg" alt="rating" class="place_rating">
+                    </div>
+
+                    <div class="col-md-3 bonus_mobile">
+                        <div class="place_bonus" id="bonus_1">
+                            <img src="img/top_10/dollar.svg" alt="dollar" class="place_bonus_dollar">
+                            <div class="place_bonus_cash place_games_number">
+                                1500$
+                            </div>
+                            <div class="place_bonus_welcome">
+                                <span>Welcome Bonus</span>
+                                <img src="img/top_10/question.svg" alt="question" class="place_bonus_question" onclick="openbox4('place_4'); return false">
+                            </div>
+                            <div class="place_bonus_welcome_add" id="place_4">
+                                <div class="welcome_add_polygon"></div>
+                                <span class="welcome_add_text">New customers only.<br>100% match bonus based</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-1 bonus_mobile">
+                        <div class="place_games">
+                            <img src="img/top_10/cards.svg" alt="cards" class="place_games_cards">
+                            <div class="place_bonus_cash place_games_number">
+                                350+
+                            </div>
+                            <div class="place_games_caption">
+                                Games
+                            </div>
+                        </div>
+                    </div>    
+
+                    <div class="col-md-3">
+                        <div class="place_buttons">
+                            <button class="place_btn btn_play_now">Play now</button>
+                            <button class="place_btn btn_read_review">Read reviews</button>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2 offset-md-5">
+                    <button class="top_full">
+                        All casinos
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <script>
+        function openbox1(place_1){
+        display=document.querySelector('#place_1').style.display;
+        if(display=='none'){
+                document.querySelector('#place_1').style.display='block';
+        }else{
+                document.querySelector('#place_1').style.display='none';
+        }
+        } 
+
+        function openbox2(place_2){
+        display=document.querySelector('#place_2').style.display;
+        if(display=='none'){
+                document.querySelector('#place_2').style.display='block';
+        }else{
+                document.querySelector('#place_2').style.display='none';
+        }
+        } 
+
+        function openbox3(place_3){
+        display=document.querySelector('#place_3').style.display;
+        if(display=='none'){
+                document.querySelector('#place_3').style.display='block';
+        }else{
+                document.querySelector('#place_3').style.display='none';
+        }
+        } 
+
+        function openbox4(place_4){
+        display=document.querySelector('#place_4').style.display;
+        if(display=='none'){
+                document.querySelector('#place_4').style.display='block';
+        }else{
+                document.querySelector('#place_4').style.display='none';
+        }
+        } 
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,162 @@
+@media (max-width: 320px) {
+    header {
+        padding: 0;
+    }
+    
+    .header_mobile {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 22px;
+    }
+
+    .header_logo_mobile {
+        display: flex;
+        outline-style: none;
+    }
+
+    .header_logo {
+        display: none;
+    }
+
+    .logo_mobile {
+        display: block;
+        margin: 0;
+    }
+   
+    .logo_desktop {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .burger_menu {
+        display: block;
+        max-height: 50px;
+        cursor: pointer;
+    }
+
+    .burger_menu span {
+        display: block;
+        width: 32px;/* ширина полоски */
+        margin: 7px;/* расстояние между полосками */
+        height: 2.5px;/* высота полоски */
+        background-color: white;
+        border-radius: 3px;
+    }
+
+    .login_btn {
+        display: none;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-top: 25px;
+    }
+
+    h2 {
+        font-size: 12px;
+        width: 243px;
+        margin-top: 25px;
+    }
+
+    .arrows {
+        min-height: 400px;
+    }
+
+    .arrows_subtitle {
+        display: none;
+    }
+
+    .arrows_red_blue {
+        display: none;
+    }
+   
+    .arrows_img {
+        display: none;
+    }
+
+    .arrows_frame {
+        display: none;
+    }
+
+    .best {
+        min-height: 50px;
+    }
+
+    .arrows_img_mobile {
+        display: block;
+        margin-left: -15px;
+        margin-top: -30px;
+    }
+
+    .arrows_frame {
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    .arrows_play {
+        margin: -60px 60px 50px 60px;
+        padding-bottom: 10px;
+    }
+
+    .top10_subtitle {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    .place {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        position: relative;
+    }
+
+    .place_number {
+        position: absolute;
+    }
+
+    .place_bonus, .place_games {
+        width: 150px;
+        margin-left: 0;
+    }
+
+    .place_bonus {
+        align-items: center;
+        padding-right: 0;
+    }
+
+    .place_bonus_question {
+        display: none;
+    }
+
+    .bonus_mobile {
+        max-width: 150px;
+        padding: 0;
+    }
+
+    .place_buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 0;
+    }
+
+    .place_btn {
+        width: 140px;
+        height: 46px;
+        padding: 6px;
+    }
+
+    .place_rating {
+        display: block;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    .top_full {
+        margin: 30px 60px 30px 60px;
+    }
+}

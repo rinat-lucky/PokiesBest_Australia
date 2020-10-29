@@ -1,0 +1,428 @@
+/* html {
+    width: 1920px;
+} */
+
+body {
+    color: white;
+    overflow-x: hidden;
+}
+
+header {
+    min-height: 852.1px;
+    background: url(../img/header/bg_header.jpg) center center/cover no-repeat;
+    padding: 39px 0 481px 0;
+}
+
+.header_logo {
+    outline-style: none;
+}
+
+.header_logo_mobile {
+    display: none;
+}
+
+.logo_desktop {
+    display: block;
+}
+
+.logo_mobile {
+    display: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 0 0;
+    padding: 0 31px;
+    list-style-type: none;
+}
+
+.menu_link {
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+.burger_menu {
+    display: none;
+}
+
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+
+.login_btn {
+    position: relative;
+    margin-top: 3px;
+    width: 151px;
+    height: 56px;
+    background: linear-gradient(to right,#00B09B, #96C93D);
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    border-style: none;
+    border-radius: 3px;
+}
+
+h1 {
+    background: transparent;
+    margin-top: 114.86px;
+    font-family: 'Prompt';
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+h2 {
+    margin-top: 125px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    opacity: 0.8;
+    width: 477px;
+}
+
+.arrows {
+    position: relative;
+    background: #002347;
+    padding: 0;
+    transform: translateY(-1.5px);
+    min-height: 850px;
+}
+
+.arrows_red_blue {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    z-index: -2;
+    top: -90px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.arrows_left {
+    width: 1108.65px;
+    height: 994.31px;
+    margin-left: -200px;
+}
+
+.arrows_right {
+    width: 1063.31px;
+    height: 994.31px;
+    margin-right: -200px;
+} 
+
+.arrows .best {
+    position: relative;
+    z-index: -2;
+}
+
+.arrows_subtitle {
+    font-family: 'Prompt';
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 155px;
+}
+
+.arrows_frame {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 320px;
+}
+
+.arrows_img {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 40px;
+    height: 689px; 
+    z-index: -1;
+}
+
+.arrows_img_mobile {
+    display: none;
+}
+
+.arrows_violet {
+    position: absolute;
+    left: 513px;
+    top: 245px;
+    z-index: -2;
+}
+
+.arrows_frame_logo {
+    padding: 12px 0 0 0;
+}
+
+.arrows_frame_descr {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 10px;
+    margin-left: -5px;
+    padding-top: 15px;
+}
+
+.frame_descr_title {
+    font-family: 'Prompt';
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 145%;
+    color: #FFFFFF;
+}
+
+.frame_descr_rating {
+    margin-top: 12px;
+    height: 31px;
+    width: 141px;
+}
+
+.frame_descr_bonus_cash {
+    padding-top: 21px;
+    margin-left: 55px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.arrows_play {
+    position: absolute;
+    color: white;
+    margin-top: 90px;
+    margin-left: 310px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    width: 174px;
+    height: 56px;
+    background: linear-gradient(90deg, #00B09B 0%, #96C93D 100%);
+    box-shadow: 2px 2px 30px #87C646;
+    border-radius: 3px;
+    border-style: none;
+}
+
+.top10::before {
+    position: absolute;
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: #002347;
+    top: -2px;
+    width: 100%;
+}
+
+.top10 {
+    position: relative;
+    background: #002347;
+}
+
+.top10_subtitle {
+    font-family: 'Prompt';
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.place {
+    margin-top: 30px;
+    margin-left: 15px;
+    display: flex;
+    background: linear-gradient(91.6deg, #00173B 0%, #0D3054 100.2%);
+    box-shadow: 10px 10px 20px rgba(0, 23, 59, 0.25), -10px -10px 20px rgba(13, 48, 84, 0.25);
+    border-radius: 10px;
+    width: 100%;
+}
+
+.place_number {
+    margin: 68px 0 66px 32px; 
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Prompt';
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 140%;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.place_casino {
+    display: flex;
+    flex-direction: column;
+    padding-top: 34px;
+    padding-right: 20px;
+    margin-left: 13.5px;
+}
+
+.place_casino_logo {
+    display: block;
+    width: 83px;
+    height: 84px;
+    margin: 0 auto;
+}
+
+.place_casino_name {
+    margin-top: 10px;
+}
+
+.place_rating {
+    margin-top: 82px;
+    margin-bottom: 81px;
+}
+
+.place_bonus {
+    display: flex;
+    flex-direction: column;
+    margin-top: 39px;
+    margin-left: 42.5px;
+    padding-right: 40px;
+}
+
+#bonus_1, #bonus_2, #bonus_3, #bonus_4 {
+    position: relative;
+}
+
+.place_bonus_dollar {
+    display: block;
+    margin: auto;
+}
+
+.place_bonus_cash {
+    margin-top: 11px;
+}
+
+.place_bonus_welcome {
+    display: flex;
+    margin-top: 10px;
+}
+
+.place_bonus_welcome_add {
+    position: relative;
+    top: 127px;
+    margin-left: -42.5px;
+    text-align: center;
+    width: 245px;
+    height: 86px;
+    background: linear-gradient(180deg, #C93F8B 0%, #A776C8 100%);
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.welcome_add_polygon {
+    position: absolute;
+    shape-outside: polygon(18px 0, 0 27px, 36px 27px); 
+    clip-path: polygon(18px 0, 0 27px, 36px 27px); 
+    width: 36px;
+    height: 27px;
+    top: -18px;
+    left: 176px;
+    background-color:#C93F8B;
+}
+
+#place_1, #place_2, #place_3, #place_4 {
+    display: none;
+    position: absolute;
+}
+
+.welcome_add_text {
+    display: block;
+    padding-top: 21px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.place_bonus_question {
+    padding-left: 8px;
+    cursor: pointer;
+}
+
+.place_bonus_cash, .place_games_number {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.place_casino_name, .place_bonus_welcome, .place_games_caption {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.place_games {
+    display: flex;
+    flex-direction: column;
+    margin-top: 39px;
+}
+
+.place_games_cards {
+    display: block;
+    margin: auto;
+}
+
+.place_games_caption {
+    margin-top: 10px;
+}
+
+.place_buttons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+
+.place_btn {
+    margin-top: 23px;
+    background: linear-gradient(90deg, #00B09B 0%, #96C93D 100%);
+    border-radius: 3px;
+    color: white;
+    border-style: none;
+    width: 174px;
+    height: 56px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.top_full {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 172px;
+    height: 56px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    background: linear-gradient(90deg, #00B09B 0%, #96C93D 100%);
+    border-radius: 3px;
+    color: white;
+    border-style: none;
+}
